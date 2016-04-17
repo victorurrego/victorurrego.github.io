@@ -1,0 +1,135 @@
+
+/*font-family: 'Shadows Into Light', cursive;
+*font-family: 'Lobster', cursive;
+*/
+
+#contenidos{
+	width: 900px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+
+body{
+	background-image: url(../img/l2.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Shadowns into ligth', cursive;
+	color:blue;
+	margin-left: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+h2{
+	font-family: 'Lobster', cursive;
+	color:blue;
+	margin-left: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+h3{
+	font-family: 'Shadowns into ligth', cursive;
+	color:blue;
+	font-size: 20px;
+	text-align: center;
+}
+h4{
+	font-family: 'Lobster', cursive;
+	color:red;
+	font-size: 20px;
+	text-align: left;
+	float: left;
+	list-style-type:  none;
+	padding: 10px;
+	background: blue;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+header{
+	
+	width: 700px;
+	height: 400px;
+	background: rgba(255,255,255,10,70); 
+}
+
+nav{
+width:  1100px;
+height: 50px;
+float: right;
+background : red;
+border-radius: 10px;
+
+}
+
+ul{
+margin: auto;
+padding-top: 4px;
+}
+li{
+	float: left;
+	list-style-type:  none;
+	padding: 10px;
+	background: blue;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+}
+
+
+
+section{
+	width: 700px;
+	background: red;
+	height: 700px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+aside{
+	width: 380px;
+	background: yellow;
+	height: 700px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer{
+	width: 1100px;
+	height: 60px;
+	background: green;
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+p{
+	font-size: 20px;
+	font-weight: bolder;
+    line-height: 20px;
+	padding: 10px;
+	float: left;
+	text-align: justify;
+	
+	
+}
+
+/*clases*/
+.ancho_menu_home{width: 700px;}
+.ancho_menu_paginas;{width: 970px;}
+
+.menu:link{padding: 4px; color: yellow; text-decoration: none;}
+.menu:visited{padding: 4px;color: white; text-decoration: none;}
+.menu:hover{padding: 4px;color: white; text-decoration: none; text-shadow:0 0 5px white;}
+.menu:active{padding: 4px;color: white; text-decoration: none;}
+
+
+/*seudo clases*/
